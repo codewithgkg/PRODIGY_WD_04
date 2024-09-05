@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaurav Kumar Gautam | Web Developer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h1>Hello, I'm Gaurav Kumar Gautam</h1>
+        <p>Web Developer | JavaScript Enthusiast | Creative Problem Solver</p>
+        <img src="./photo.jpg" alt="Your Profile Photo">
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I'm Gaurav Kumar Gautam, a passionate web developer with a strong foundation in HTML, CSS, JavaScript, SQL,
+            and PHP, along with a growing knowledge of Node.js. I hold an M.Sc. in Informatics from the University of
+            Delhi and am eager to apply my skills in creating dynamic, responsive websites while continuously learning
+            and growing in the field of web development.</p>
+        <h3>Education</h3>
+        <ul>
+            <li>Bachelor of Science in Physical Science with Electronics – University of Delhi</li>
+            <li>Master's in Informatics – University of Delhi</li>
+        </ul>
+        <h3>Experience - Intern at <b>Prodigy InfoTech</b></h3>
+    </section>
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project-card">
+            <h3>Project 1: My Online Meal</h3>
+            <p>This project is a responsive webpage built using HTML, CSS, and JavaScript that enables users to
+                conveniently order food online. The website is designed to offer a seamless and user-friendly
+                experience, adapting to various screen sizes for optimal functionality on any device.</p>
+            <a href="https://onlinemeal-gaurav.netlify.app/">View Project</a>
+        </div>
+        <div class="project-card">
+            <h3>Project 2: EventEats Website</h3>
+            <p>This project is an online platform designed to streamline food ordering in the college canteen and
+                facilitate the organization of both formal and informal events within the college. Built using HTML,
+                CSS, JavaScript, PHP, and SQL, the website allows users to place food orders online and manage event
+                scheduling efficiently.</p>
+            <a href="https://astonishing-kitsune-9d9c6c.netlify.app">View Project</a>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="submit_form.php" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2024 Gaurav kumar Gautam | Designed by You</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
